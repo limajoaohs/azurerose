@@ -1,0 +1,28 @@
+# Segredos — nunca commitar
+backend/.env
+backend/*.env
+!backend/.env.example
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/*.db
+backend/tests/test_azurerose.db
+*.pyc
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Documentos gerados (nunca versionar PDFs no repositório)
+*.pdf
+
+# Editor / OS
+.DS_Store
+*.swp
+
+# Configuração local do Claude Code (específica desta máquina)
+.claude/
